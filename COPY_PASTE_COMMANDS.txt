@@ -1,0 +1,63 @@
+# 📋 COPY & PASTE COMMANDS - Phase 2 Push to GitHub
+
+## ONE COMMAND SOLUTION
+
+Open PowerShell and copy/paste this ENTIRE block:
+
+```powershell
+cd "C:\Users\Mona\OneDrive - Centria ammattikorkeakoulu Oy\Web kehittaminen jatko\BookingSystem\Phase2"; git remote add origin https://github.com/Dogters03/BookingSystem.git; git push -u origin main
+```
+
+When prompted:
+- Username: `Dogters03`
+- Password: Your GitHub Personal Access Token (from https://github.com/settings/tokens)
+
+---
+
+## STEP BY STEP (If You Prefer Individual Commands)
+
+### Command 1: Go to Your Folder
+```powershell
+cd "C:\Users\Mona\OneDrive - Centria ammattikorkeakoulu Oy\Web kehittaminen jatko\BookingSystem\Phase2"
+```
+Press Enter
+
+### Command 2: Add GitHub Remote
+```powershell
+git remote add origin https://github.com/Dogters03/BookingSystem.git
+```
+Press Enter
+
+### Command 3: Check It Was Added
+```powershell
+git remote -v
+```
+Press Enter (should show your repo URL)
+
+### Command 4: Push to GitHub
+```powershell
+git push -u origin main
+```
+Press Enter, then enter credentials when asked
+
+---
+
+## ✅ After Push
+
+Your code will be at:
+```
+https://github.com/Dogters03/BookingSystem/tree/main/BookingSystem/Phase2
+```
+
+---
+
+## 🎯 For Itslearning
+
+Submit this link:
+```
+https://github.com/Dogters03/BookingSystem/tree/main/BookingSystem/Phase2
+```
+
+---
+
+That's it! 🎉
